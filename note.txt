@@ -1,0 +1,17 @@
+- install tailwind and it dependencies by running
+    "npm install -D tailwindcss postcss autoprefixer"
+
+- run below command to create some files needed for using tailwind css
+    "npx tailwindcss init -p"
+
+- add the below inside the content property array in the tailwind.config.css file
+    "./src/**/*.{js,jsx,ts,tsx}"  // including the quotes
+
+- paste the below in the index.css file
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+
+- documentation link
+    https://tailwindcss.com/docs/installation
